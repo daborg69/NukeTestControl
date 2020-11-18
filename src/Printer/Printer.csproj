@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>1.0.0.18</AssemblyVersion>
+    <AssemblyName>Daborg69.Printer</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectDownload Include="GitVersion.Tool" Version="[5.5.1]" />
+  </ItemGroup>
+</Project>
