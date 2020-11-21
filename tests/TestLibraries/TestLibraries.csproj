@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\coreLib\coreLib.csproj" />
+    <ProjectReference Include="..\..\src\coreLib\CoreLib.csproj" />
   </ItemGroup>
 
 </Project>
