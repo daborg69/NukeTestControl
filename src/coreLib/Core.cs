@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Intrinsics.X86;
 
 namespace daborg69
 {
@@ -33,6 +34,7 @@ namespace daborg69
 			a += z;
 			a += 2;
 			a++;
+			a = a * 2;
 		}
 
 
