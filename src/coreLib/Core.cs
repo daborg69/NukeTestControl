@@ -19,6 +19,7 @@ namespace daborg69
 			x++;
 			y++;
 			y++;
+			y++;
 			y = y * y;
 			y++;
 
@@ -29,7 +30,8 @@ namespace daborg69
 
 			a += 50;
 			a += x;
-			a = a * x;
+			a += a * x;
+			a += a * x;
 			a += x; a++;
 			a = a * a;
 			a += z;
