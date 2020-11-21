@@ -37,6 +37,7 @@ namespace daborg69
 			a += a * x;
 			a += x; a++;
 			a = a * a;
+			a++;
 			a += z;
 			a += 2;
 			a++;
