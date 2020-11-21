@@ -27,6 +27,8 @@ namespace daborg69
 			z += 2;
 			z += 4;
 			z += 4;
+			z = z * z;
+			z = z * z;
 
 
 			a += 50;
