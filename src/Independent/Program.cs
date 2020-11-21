@@ -11,6 +11,12 @@ namespace Independent
 		{
 			Console.WriteLine("Hello World!");
 
+			int y = 0;
+			string name = "Bob Jones";
+
+			string test = string.Format("add -m \" this is the text message for {0} with value {1} \"", name, y);
+            Console.WriteLine(test);
+
 			string json = @"{
   ""DeployRoot"": ""c:\\temp\\deployroot"",
   ""Projects"": [
