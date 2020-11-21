@@ -18,7 +18,6 @@ namespace daborg69
 			x++;
 			y++;
 			y++;
-			y++;
 
 
 			z += 2;
