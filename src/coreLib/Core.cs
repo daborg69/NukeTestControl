@@ -18,24 +18,14 @@ namespace daborg69
 
 			x++;
 			y++;
-			y += 2;
-			y++;
-			y = y * y;
-			y = y * y;
-			y++;
 
 			z += 2;
 			z += 4;
-			z += 4;
-			z = z * z;
 			z = z * z;
 
 
 			a += 50;
 			a += x;
-			a += a * x;
-			a += a * x;
-			a += x; a++;
 			a = a * a;
 			a++;
 			a += z;
