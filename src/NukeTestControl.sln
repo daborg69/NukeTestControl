@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreLib", "coreLib\coreLib.csproj", "{39C2CFFE-9706-42FF-86D4-64CF6B5C72FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLib", "coreLib\CoreLib.csproj", "{39C2CFFE-9706-42FF-86D4-64CF6B5C72FC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Independent", "Independent\Independent.csproj", "{B161ACF6-FC73-49E7-9304-6D813F193904}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Printer", "Printer\Printer.csproj", "{2CAF87B2-7F33-412A-983D-7ABE77965DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibraries", "..\tests\TestLibraries\TestLibraries.csproj", "{3C91EAB3-890E-41E7-80E4-AE5486C5CED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLibraries", "..\tests\TestLibraries\TestLibraries.csproj", "{3C91EAB3-890E-41E7-80E4-AE5486C5CED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
