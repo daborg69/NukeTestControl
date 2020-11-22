@@ -24,6 +24,8 @@ namespace Printer
 		public Simple()
 		{
 			Projects = new List<Item>();
+			int y = 0;
+			y++;
 		}
 
 		/// <summary>

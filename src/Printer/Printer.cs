@@ -10,6 +10,7 @@ namespace Daborg69
 			Console.WriteLine("Still Printing...");
 			Console.WriteLine("Still Printing...");
 			Console.WriteLine("Still Printing...");
+			Console.WriteLine("Out  of  Ink!");
 		}
 	}
 }
