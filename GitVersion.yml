@@ -24,6 +24,7 @@ branches:
     tag: ''
     regex: ^master$|^main$
     prevent-increment-of-merged-branch-version: true
+    continuous-delivery-fallback-tag: ''
     increment: Patch  
     
 
