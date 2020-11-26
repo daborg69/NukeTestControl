@@ -6,4 +6,9 @@
     <AssemblyVersion>1.0.0.13</AssemblyVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\coreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\Printer\Printer.csproj" />
+  </ItemGroup>
+
 </Project>
