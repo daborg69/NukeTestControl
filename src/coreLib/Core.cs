@@ -22,7 +22,6 @@ namespace daborg69
 			y = y * 2;
 			z += 2;
 			z += 4;
-			z += 4;
 			z = z * z;
 
 
