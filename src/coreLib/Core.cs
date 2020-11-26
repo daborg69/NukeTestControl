@@ -10,6 +10,7 @@ namespace daborg69
 		private int y = 0;
 		private int z = 0;
 		private int a = 0;
+		private long w = 0;
 
 
 		public Core()
@@ -39,6 +40,8 @@ namespace daborg69
 			a += 2;
 			a++;
 			a = a * 2;
+
+			w = a + y + z;
 		}
 
 
