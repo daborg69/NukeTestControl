@@ -41,6 +41,7 @@ namespace daborg69
 			a += 2;
 			a++;
 			a = a * 2;
+			a++;
 
 			w = a + y + z;
 		}
