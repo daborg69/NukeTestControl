@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Daborg69
+namespace Daborg69.Utility
 {
 	public class Printer
 	{
