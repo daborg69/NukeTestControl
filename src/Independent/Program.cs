@@ -34,6 +34,7 @@ namespace Independent
 					"2.5.6-alpha5004",
 					"1.4.3-alpha4",
 					"2.5.6",
+					"1.4.3-beta34",
 					"1.0.0-alpha1"
 				};
 				
