@@ -47,6 +47,11 @@ namespace daborg69
 			a++;
 
 			w = a + y + z;
+
+			int t = a;
+			t += a;
+			t = t * a * z;
+
 		}
 
 
