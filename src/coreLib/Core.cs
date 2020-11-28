@@ -32,7 +32,7 @@ namespace daborg69
 
 			a += 50;
 			a += x;
-			a = a - 40;
+			
 			a = a - 3;
 			a = a * a;
 			a++;
