@@ -12,14 +12,16 @@ branches:
     tag: useBranchName
     increment: Minor
     regex: ^feature?[/-]
+    mode: ContinuousDeployment
   release:
-    tag: beta
+    tag: rc
     increment: Minor
     regex: ^release?[/-]
   hotfix:
     tag: fix
     regex: ^hotfix(es)?[/-]|^fix[/-]
     increment: Patch
+    mode: ContinuousDeployment
   master: 
     tag: ''
     regex: ^master$|^main$

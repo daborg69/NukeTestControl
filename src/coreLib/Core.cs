@@ -22,6 +22,11 @@ namespace daborg69
 			y = y * 2;
 			z += 2;
 			z += 4;
+			x++;
+			y++;
+			z += 2;
+			z += 4;
+
 			z = z * z;
 			y = y * 2;
 			y = y * 2;
@@ -32,17 +37,20 @@ namespace daborg69
 
 			a += 50;
 			a += x;
+			
+			a = a - 3;
 			a = a * a;
 			a++;
 			a++;
-			a += z;
-			a += z;
+			a++;
+			a += 2;
 			a += z;
 			a++;
-			a++;
+			a = a * y + z;
 			a = a * y + z;
 			a += 2;
 			a++;
+			a = a * 2;
 			a = a * 2;
 			a++;
 
