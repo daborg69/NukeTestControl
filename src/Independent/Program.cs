@@ -28,7 +28,6 @@ namespace Independent
 					"2.5.6-alpha.2",
 					"1.0.3-feature12",
 					"1.0.0",
-					"0.6.0",
 					"5.4.0",
 					"2.5.6-beta.5",
 					"2.5.6-release40",
