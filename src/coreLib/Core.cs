@@ -52,6 +52,7 @@ namespace daborg69
 			a++;
 			a++;
 			a += 2;
+			a += 254 + x;
 			a += z;
 			a++;
 			a = a * y + z;
