@@ -9,7 +9,7 @@ namespace daborg69
 		private int x = 0;
 		private int y = 0;
 		private int z = 0;
-		private int a = 0;
+		private int a = 1;
 		private long w = 0;
 
 
@@ -19,8 +19,10 @@ namespace daborg69
 
 			x++;
 			x++;
+			x++;
 			y++;
 			y++;
+			y = y * 2;
 			y = y * 2;
 			z += 2;
 			z += 2;
@@ -42,6 +44,7 @@ namespace daborg69
 			z += 4;
 			z += 4;
 			z = z * y;
+			z = z * a;
 
 			a += 50;
 			a += x;
