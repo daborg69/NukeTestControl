@@ -18,6 +18,7 @@ namespace daborg69
 			Console.WriteLine("hello");
 
 			x++;
+			x++;
 			y++;
 			y++;
 			y = y * 2;
