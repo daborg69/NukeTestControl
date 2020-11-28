@@ -32,9 +32,11 @@ namespace daborg69
 
 			a += 50;
 			a += x;
+			a += x;
 			a = a * a;
 			a++;
 			a++;
+			a += 2;
 			a += z;
 			a++;
 			a = a * y + z;
