@@ -18,9 +18,17 @@ namespace daborg69
 			Console.WriteLine("hello");
 
 			x++;
+			x++;
+			y++;
 			y++;
 			y = y * 2;
 			z += 2;
+			z += 2;
+			z += 2;
+			y++;
+			y = y * 2;
+			z += 2;
+
 			z += 4;
 			x++;
 			y++;
@@ -44,7 +52,9 @@ namespace daborg69
 			a++;
 			a++;
 			a += 2;
+			a += 254 + x;
 			a += z;
+			a++;
 			a++;
 			a = a * y + z;
 			a = a * y + z;
