@@ -50,6 +50,7 @@ namespace daborg69
 
 			int t = a;
 			t += a;
+			t = t * a * z;
 
 		}
 
