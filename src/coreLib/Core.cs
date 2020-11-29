@@ -46,6 +46,7 @@ namespace daborg69
 			
 			z = z * y;
 			z = z * a;
+			z = z + a;
 
 			a += 50;
 			a += x;
