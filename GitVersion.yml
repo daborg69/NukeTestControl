@@ -9,7 +9,7 @@ branches:
     increment: Minor
     regex: ^dev(elop)?(ment)?$
   feature:
-    tag: useBranchName
+    tag: beta-{branch}
     increment: Minor
     regex: ^feature?[/-]
     mode: ContinuousDeployment
