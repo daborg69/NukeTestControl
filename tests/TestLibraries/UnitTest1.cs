@@ -1,6 +1,5 @@
 using daborg69;
 using Daborg69.Fax;
-using Microsoft.VisualStudio.TestPlatform.ObjectModel.Resources;
 using NUnit.Framework;
 
 
