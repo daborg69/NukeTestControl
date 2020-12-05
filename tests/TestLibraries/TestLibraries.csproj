@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\coreLib\CoreLib.csproj" />
+    <ProjectReference Include="..\..\src\Fax\Fax.csproj" />
   </ItemGroup>
 
 </Project>

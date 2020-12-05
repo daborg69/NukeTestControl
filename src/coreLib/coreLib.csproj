@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyVersion>1.0.0.25</AssemblyVersion>
-    <AssemblyName>Daborg69.Other.CoreLib</AssemblyName>
+    <AssemblyName>Daborg69.CoreLib</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

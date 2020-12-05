@@ -1,4 +1,5 @@
 using daborg69;
+using Daborg69.Fax;
 using Microsoft.VisualStudio.TestPlatform.ObjectModel.Resources;
 using NUnit.Framework;
 
@@ -34,6 +35,14 @@ namespace UnitTester
 		public void Test3 () {
 			Core core = new Core();
 			//Assert.AreEqual(0,core.ValueX(),"A10:  X not correct value");
+		}
+
+
+		[Test]
+		public void FaxTest () {
+			Faxes fax = new Faxes(9);
+			Assert.AreEqual(9, fax.NumberOfFaxes);
+
 		}
 	}
 }
