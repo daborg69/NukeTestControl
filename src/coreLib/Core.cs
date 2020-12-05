@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace daborg69
 {
@@ -79,6 +80,7 @@ namespace daborg69
 		public int ValueA() { return a; }
 		public void ResetA() { a = 0; }
 
+		[ExcludeFromCodeCoverage]
 		public int ValueX() { return x; }
 	}
 }
