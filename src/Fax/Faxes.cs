@@ -11,5 +11,7 @@ namespace Daborg69.Fax
 
 
 		public int NumberOfFaxes { get; set; }
+
+		public string FaxNumber { get; set; }
 	}
 }
