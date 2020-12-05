@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
 
 namespace Daborg69.Utility
 {
+	// Example of how to exclude a class (could be method also) from code coverage.
+	[ExcludeFromCodeCoverage]
 	public class Printer
 	{
 		public Printer () {
