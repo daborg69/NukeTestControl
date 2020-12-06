@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Fax</AssemblyName>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <AssemblyName>Daborg69.Fax</AssemblyName>
+    <AssemblyVersion>1.0.0.6</AssemblyVersion>
   </PropertyGroup>
 
 </Project>
