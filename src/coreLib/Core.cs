@@ -48,7 +48,8 @@ namespace daborg69
 
 			a += 50;
 			a += x;
-			
+			x++;
+
 			a = a - 3;
 			a = a * a;
 			a++;
