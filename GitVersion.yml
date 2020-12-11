@@ -7,7 +7,7 @@ branches:
   develop:
     tag: beta
     increment: Minor
-    regex: ^dev(elop)?(ment)?$
+    regex: ^dev(elop)?[/-]
     mode: ContinuousDeployment
   feature:
     tag: alpha
