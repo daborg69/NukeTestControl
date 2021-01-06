@@ -4,34 +4,31 @@ tag-prefix: '[vV][eE][rR]'
 assembly-informational-format: '{FullSemVer}+{ShortSha}'
 
 branches: 
-  develop:
-    tag: beta
-    increment: Minor
-    regex: ^dev(elop)?[/-]
+  hotfix:
+    tag: alpha
+    regex: ^hotfix(es)?[/-]|^fix[/-]
+    increment: Patch
     mode: ContinuousDeployment
   feature:
     tag: alpha
     increment: Minor
     regex: ^feature?[/-]
     mode: ContinuousDeployment
+  develop:
+    tag: prerc
+    increment: Minor
+    regex: ^dev(elop)?[/-]
+    mode: ContinuousDeployment
   release:
     tag: rc
     increment: Minor
     regex: ^release?[/-]
-  hotfix:
-    tag: alpha
-    regex: ^hotfix(es)?[/-]|^fix[/-]
-    increment: Patch
-    mode: ContinuousDeployment
   master: 
     tag: ''
     regex: ^master$|^main$
     prevent-increment-of-merged-branch-version: true
     increment: Patch  
     
-
-
-
 ignore:
   sha: []
 merge-message-formats: {}
