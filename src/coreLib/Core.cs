@@ -38,13 +38,14 @@ namespace daborg69
 			z += 4;
 
 			z = z * z;
+			z--;
 			z = z * z;
-			y = y * 2;
 			z += 2;
 			z += 4;
 			z++;
 			z = z * y;
 			z = z * a;
+			z = z + a;
 
 			a += 50;
 			a += x;
