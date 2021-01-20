@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Runtime.Intrinsics.X86;
+using System.Diagnostics.CodeAnalysis;
 
 namespace daborg69
 {
@@ -17,7 +17,6 @@ namespace daborg69
 		{
 			Console.WriteLine("hello");
 
-			x++;
 			x++;
 			x++;
 			y++;
@@ -39,18 +38,19 @@ namespace daborg69
 			z += 4;
 
 			z = z * z;
-			y = y * 2;
-			y = y * 2;
+			z--;
+			z = z * z;
 			z += 2;
 			z += 4;
-			
+			z++;
 			z = z * y;
 			z = z * a;
 			z = z + a;
 
 			a += 50;
 			a += x;
-			
+			x++;
+
 			a = a - 3;
 			a = a * a;
 			a++;
@@ -81,6 +81,7 @@ namespace daborg69
 		public int ValueA() { return a; }
 		public void ResetA() { a = 0; }
 
+		[ExcludeFromCodeCoverage]
 		public int ValueX() { return x; }
 	}
 }
