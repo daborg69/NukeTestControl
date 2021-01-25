@@ -21,6 +21,7 @@ namespace Daborg69.Utility
 			Console.WriteLine("Still Printing...");
 			Console.WriteLine("Still Printing...");
 			Console.WriteLine("Ink Problem...");
+			Console.WriteLine("Ink Problem...");
 		}
 	}
 }
