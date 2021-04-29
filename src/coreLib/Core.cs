@@ -30,6 +30,7 @@ namespace daborg69
 			y++;
 			y = y * 2;
 			z += 2;
+			z++;
 
 			z += 4;
 			x++;
