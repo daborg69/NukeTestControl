@@ -1,1 +1,4 @@
-{"Solution":"src/NukeTestControl.sln","$schema":"./build.schema.json"}
+{
+"Solution":"src/NukeTestControl.sln",
+"$schema":"./build.schema.json"
+}
