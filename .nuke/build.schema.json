@@ -43,14 +43,6 @@
           "type": "boolean",
           "description": "Disables displaying the NUKE logo"
         },
-        "NugetApiKey": {
-          "type": "string",
-          "description": "Nuget API Key used to deploy to Nuget compatible Repo"
-        },
-        "NugetRepoUrl": {
-          "type": "string",
-          "description": "URL of the Nuget compatible Repository that packages should be pushed to"
-        },
         "Plan": {
           "type": "boolean",
           "description": "Shows the execution plan (HTML)"
@@ -73,21 +65,10 @@
             "type": "string",
             "enum": [
               "Clean",
-              "CodeCoverage",
               "Compile",
-              "GitCommit",
-              "Info",
-              "Pack",
-              "Publish",
-              "PublishProd",
-              "Restore",
-              "Test"
+              "Restore"
             ]
           }
-        },
-        "SkipNuget": {
-          "type": "boolean",
-          "description": "When Publishing, it skips the deployment of any project with a deploy method of Nuget"
         },
         "Solution": {
           "type": "string",
@@ -100,15 +81,8 @@
             "type": "string",
             "enum": [
               "Clean",
-              "CodeCoverage",
               "Compile",
-              "GitCommit",
-              "Info",
-              "Pack",
-              "Publish",
-              "PublishProd",
-              "Restore",
-              "Test"
+              "Restore"
             ]
           }
         },
