@@ -2,10 +2,13 @@
   "UseCodeCoverage": true,
   "CodeCoverageThreshold": 40,
   "DeployProdRoot": "C:\\temp\\deployroot\\Prod",
-  "DeployTestRoot": "C:\\temp\\deployroot\\test",
+  "DeployAlphaRoot": "_",
+  "DeployBetaRoot": "_",
+  "DeployDevRoot": "_",
   "DeployToVersionedFolder": true,
   "DeployFolderUsesSemVer": true,
   "DeployToAssemblyFolders": true,
+  "GitRemote": null,
   "Projects": [
     {
       "Name": "Printer",
